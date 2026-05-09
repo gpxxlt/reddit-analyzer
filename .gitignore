@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Backend – TypeScript compiled output (in-place, no outDir)
+backend/*.js
+backend/*.js.map
+backend/*.d.ts
+backend/*.d.ts.map
+backend/tsconfig.tsbuildinfo
+
+# Frontend – Vite build output
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
