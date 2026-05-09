@@ -1,2 +1,5 @@
+data-pipeline/__pycache__/
+data-pipeline/*.pyc
+data-pipeline/reddit-project-venv/
 data-pipeline/.env
 data-pipeline/.env.example
