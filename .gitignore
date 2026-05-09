@@ -30,14 +30,13 @@ npm-debug.log*
 *.swp
 *.swo
 
-.DS_Store
-.env
-
-
+# Data pipeline – Python
 data-pipeline/__pycache__/
-data-pipeline/*.pyc
+data-pipeline/**/__pycache__/
+data-pipeline/*.py[cod]
+data-pipeline/**/*.py[cod]
 data-pipeline/reddit-project-venv/
+data-pipeline/.venv/
 data-pipeline/.env
 data-pipeline/.env.example
-data-pipeline/.DS_Store
 
